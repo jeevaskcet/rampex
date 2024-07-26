@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: chartreuse;
+            animation-name: jeeva;
+            animation-duration: 6s;
+            border: 5px solid green;
+            border-radius: 20%;
+            position: relative;
+            animation-timing-function: ease-in-out;
+            top: 40px;
+            left: 40px;
+            transition-property: transform;
+            transition-duration: 3s;
+        }
+        div:hover
+        {
+            transform: rotate(360deg);
+        }
+        @keyframes jeeva {
+            0%
+            {
+                
+                background-color: rgb(164, 223, 12);
+                position: relative;
+                left: 0px;
+                top: 0px;
+                
+            }
+            25%
+            {
+                background-image: url(https://i.pinimg.com/736x/a8/fc/c3/a8fcc353a0f6c38ee8329e321853c134.jpg);
+                background: fixed;
+                background-color: rgb(22, 182, 213);
+                position: relative;
+                left: 600px;
+                top: 0px;
+                
+                
+            }
+            
+            50%
+            {
+                background-color: rgb(117, 6, 135);
+                position: relative;
+                left: 600px;
+                top:600px;
+              
+                
+            }
+            75%
+            {
+                background-color: rgb(225, 32, 138);
+                position: relative;
+                left:0px;
+                top: 600px;
+                
+            }
+            100%
+            {
+                background-color: rgb(164, 223, 12);
+                position: relative;
+                left:0px;
+                top: 0px;
+                
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    
+</body>
+</html>
